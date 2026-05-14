@@ -2,26 +2,13 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'f4374a047d3941f39b52fc3bdc6d58cf',
+  rootNotionPageId: '80558ca8faaf49aea6877069fdbf90b8',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
-  // basic site info (required)
-  name: 'Misty 项目草稿',
-  domain: 'drafts.misty.moe',
-  author: 'Misty',
 
-  // open graph metadata (optional)
-  description: '这里是Misty存放她平时工作项目笔记的地方，欢迎来这里搜罗信息',
-  // socialImageTitle: 'Misty 项目草稿',
-  // socialImageSubtitle: 'Hello World! 👋',
-
-  // social usernames (optional)
-  twitter: 'MiscMisty',
-  github: 'NyaMisty',
-  //linkedin: '#',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
